@@ -1,0 +1,21 @@
+{
+  "name": "classificationengine",
+  "version": "1.0.0",
+  "description": "Motor de classificação de pessoas",
+  "main": "index.js",
+  "scripts": {
+    
+    "start": "node bin/index",
+    "test": "jest --forceExit --detectOpenHandles"
+  },
+  "author": "alexsander.melo",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
